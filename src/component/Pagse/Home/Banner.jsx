@@ -34,7 +34,7 @@ const Banner = () => {
                             SPECIALIZING IN REACT.JS
                         </h1>
 
-                        <p className="mt-3  font-bold text-white">
+                        <p className="mt-3 lg:font-bold text-white">
                             I'm Rakibul Hasan. I'm a frontend developer specializing in creating dynamic web applications. I leverage HTML, CSS, and JavaScript to craft modern web designs. My goal is to deliver a user-friendly and exceptional experience for users.
                         </p>
                          <div className='flex gap-4'>

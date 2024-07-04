@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Project = () => {
@@ -19,33 +20,15 @@ const Project = () => {
                                 <h2 className="mt-4 text-xl font-semibold text-white capitalize">Tour Guide website </h2>
                                 <Link to={'https://tour-guide-client.surge.sh/'} className='text-5xl  text-blue-500 text-center mt-4'>Live Link </Link>
                                 {/* Open the modal using document.getElementById('ID').showModal() method */}
-                                <button className="btn btn-success mt-4 text-white" onClick={() => document.getElementById('my_modal_5').showModal()}>protfulio details</button>
-                                <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                                    <div className="modal-box">
-                                        <h3 className="font-bold text-lg">Tour Guide Website</h3>
-                                        <h1 className='text-3xl font-bold'>Used Tolls    : </h1>
-                                        <li>Html</li>
-                                        <li>css</li>
-                                        <li>tailwind</li>
-                                        <li>mamba ui</li>
-                                        <li>Meraki ui</li>
-                                        <li>daisy ui</li>
-                                        <li>MongoDb</li>
-                                        <li>Expres.js</li>
-                                        <li>Node.js</li>
-                                        <li>react.icon</li>
-                                        <li>react-toast</li>
-                                                                                <div className="modal-action">
-                                            <form method="dialog">
-                                                {/* if there is a button in form, it will close the modal */}
-                                                <button className="btn">Close</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </dialog>
+                                
 
 
+                                <div className='mt-40'>
+                                <Link to={'https://github.com/rakibul561/Tour-Guide-Server'} className="btn btn-sm">Server Side <FaGithub></FaGithub> </Link>
+                                <Link to={'https://github.com/rakibul561/Tour-Guide-Client-'} className="btn ml-40 btn-sm">Client Side  <FaGithub></FaGithub> </Link>
+                                </div>
                             </div>
+                            
                         </div>
 
                         <div  className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
@@ -54,19 +37,10 @@ const Project = () => {
                                 <h2 className="mt-4 text-xl font-semibold text-white capitalize">Hotel Booking Website</h2>
                                 <Link to={'http://obtainable-name.surge.sh/'} className='text-4xl font-bold text-blue-700 text-center mt-4'>Live Link</Link>
                             
-                              <button className="btn btn-success mt-4 text-white" onClick={() => document.getElementById('my_modal_5').showModal()}>protfulio details</button>
-                                <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                                    <div className="modal-box">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">Press ESC key or click the button below to close</p>
-                                        <div className="modal-action">
-                                            <form method="dialog">
-                                                {/* if there is a button in form, it will close the modal */}
-                                                <button className="btn">Close</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </dialog>
+                                <div className='mt-40'>
+                                <Link to={'https://github.com/rakibul561/Hotel-Booking-Server'} className="btn btn-sm">Server Side <FaGithub></FaGithub> </Link>
+                                <Link to={'https://github.com/rakibul561/Hotel-Booking'} className="btn ml-40 btn-sm">Client Side  <FaGithub></FaGithub> </Link>
+                                </div>
                             </div>
                         </div>
 
@@ -76,19 +50,10 @@ const Project = () => {
                                 <h2 className="mt-4 text-xl font-semibold text-white capitalize">Art Store Website</h2>
                                 <Link to={'https://art-store-client.web.app/'} className='text-4xl font-bold text-blue-700 text-center mt-4'>Live Link </Link>
                               
-                               <button className="btn btn-success mt-4 text-white" onClick={() => document.getElementById('my_modal_5').showModal()}>protfulio details</button>
-                                <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                                    <div className="modal-box">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">Press ESC key or click the button below to close</p>
-                                        <div className="modal-action">
-                                            <form method="dialog">
-                                                {/* if there is a button in form, it will close the modal */}
-                                                <button className="btn">Close</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </dialog>
+                                <div className='mt-40'>
+                                <Link to={'https://github.com/rakibul561/Art-Store-Server'} className="btn btn-sm">Server Side <FaGithub></FaGithub> </Link>
+                                <Link to={'https://github.com/rakibul561/Art-Store-Client'} className="btn ml-40 btn-sm">Client Side  <FaGithub></FaGithub> </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
