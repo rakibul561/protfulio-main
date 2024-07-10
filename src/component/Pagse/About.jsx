@@ -12,12 +12,12 @@ const About = () => {
 
                 </nav>
 
-                <div className="container flex flex-col px-6 py-4 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+                <div className="container flex flex-col px-6 mt-36 py-4 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                     <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
                         <div className="max-w-lg lg:mx-12 space-y-4 lg:order-2">
                             <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl">Hi there! I'm Rakibul Hasan</h1>
                             <p className='text-blue-700 text-xl '>Front End Web Devoloper</p>
-                            <p className="mt-4 text-gray-600 dark:text-gray-300">A dedicated  Front-end devoloper with 1 years of expreience. <br />
+                            <p className=" mt-4 text-gray-600 dark:text-gray-300">A dedicated  Front-end devoloper with 1 years of expreience. <br />
                                 i am committed to continually updating my skils with the latest <br /> technologies and writing clean,efficient code. i take pride in completing projects to the higjest standrad ,always striving to <br />
                                 improve with each new chellenge
                             </p>
